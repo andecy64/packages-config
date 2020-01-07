@@ -1,0 +1,122 @@
+tap 'caskroom/cask'
+tap 'chef/chef'
+tap 'crisidev/chunkwm'
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/core'
+tap 'homebrew/services'
+tap 'thoughtbot/formulae'
+
+# System
+## Binaries
+brew 'nmap'
+brew 'sha2'
+brew 'imagemagick'
+brew 'inetutils'
+brew 'socat'
+brew 'cquery'  # C Language Server
+brew 'p7zip'
+brew 'gdb'
+brew 'gcc'
+brew 'smartmontools'
+brew 'lftp'
+## Tools
+brew 'mas'
+brew 'git'
+brew 'htop'
+brew 'stow'
+brew 'tmux'
+brew 'unrar'
+brew 'vim'
+brew 'wget'
+brew 'fselect'  # SQL-like ls replacement
+brew 'xhyve'
+brew 'ffmpeg'
+brew 'fping'
+## Libraries
+brew 'libev'
+brew 'libiscsi'
+brew 'libmagic'
+brew 'ext4fuse'
+cask 'osxfuse'
+brew 'squashfs'
+## Shell
+brew 'xonsh'
+brew 'bash'
+
+# Developement
+brew 'mysql'
+brew 'mysql-client'
+brew 'bitwise'  # Bitwise calculator https://github.com/mellowcandle/bitwise
+cask 'mactex'  # LaTeX for mac
+brew 'azure-cli'
+cask 'mysql-shell'
+cask 'java'
+brew 'packer'
+brew 'haskell-stack'
+cask 'chefdk'
+cask 'wkhtmltopdf'
+cask 'dynamodb-local'
+brew 'jq'
+brew 'cmake'
+brew 'bower'
+brew 'sphinx'
+brew 'sphinx-doc'
+brew 'terraform'
+brew 'up'
+brew 'geckodriver'
+brew 'minikube'
+brew 'nginx'
+brew 'pandoc'
+brew 'postgresql'
+brew 'pyenv'
+brew 'redis'
+brew 'rust'
+brew 'hugo'
+
+# Applications
+brew 'pass'
+cask 'kitty'
+brew 'parallel'
+brew 'hub'
+brew 'freerdp'
+brew 'weechat'
+brew 'youtube-dl'
+brew 'neomutt'  # Email
+# cask 'geektool'  # Clarification
+brew 'neovim'
+brew 'ranger'
+brew 'rclone'
+brew 'lynx'
+brew 'net-snmp'
+brew 'w3m'
+brew 'fzf'
+cask 'qutebrowser'
+brew 'operator-sdk'
+brew 'consul'
+
+# Fonts
+cask 'font-droidsansmono-nerd-font'
+cask 'font-droidsansmono-nerd-font-mono'
+cask 'font-fira-code'
+cask 'font-firacode-nerd-font'
+cask 'font-firacode-nerd-font-mono'
+cask 'font-fontawesome'
+cask 'font-ubuntu-nerd-font'
+cask 'font-ubuntu-nerd-font-mono'
+
+
+# NO!
+# brew 'intltool'  # From freedesktop
+# brew 'molecule'  # Installed with ansible
+# cask 'chromium'
+# cask 'libreoffice'
+# brew 'irssi'  # Using weechat
+# brew 'desktop-file-utils'  # from freedesktop.org
+# brew 'dynamips'  # Cisco router emulator
+# brew 'evince'  # PDF Viewer
+# brew 'gobject-introspection'  # Gnome application related
+# cask 'xquartz'  # Xserver for mac
+# brew 'crosstool-ng'  # https://github.com/crosstool-ng/crosstool-ng
+# brew 'fortune'  https://github.com/fortunejs/fortune
+# brew 'docker-compose'  # Install via pip
