@@ -94,6 +94,7 @@ brew 'fzf'
 cask 'qutebrowser'
 brew 'operator-sdk'
 brew 'consul'
+cask 'vlc'
 
 # Fonts
 cask 'font-droidsansmono-nerd-font'
